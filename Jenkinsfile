@@ -17,8 +17,8 @@ pipeline {
         stage('Cloning our Git') { 
 
             steps { 
-
-                git 'https://github.com/shlomibra/morse.git' 
+                git([url: 'https://github.com/shlomibra/morse.git', branch: 'main'])
+                
             }
 
         } 
