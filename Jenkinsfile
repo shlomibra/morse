@@ -18,7 +18,6 @@ pipeline {
 
             steps { 
 
-                git branch: 'main'
                 git 'https://github.com/shlomibra/morse.git' 
             }
 
